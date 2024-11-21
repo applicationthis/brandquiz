@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".PolicyActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Purpose -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Purpose:"
+            android:textStyle="bold"
+            android:paddingBottom="8dp"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The purpose of this leave policy for employees is to lay guidelines regarding when to avail leave and the process to take leave."
+            android:paddingBottom="16dp"
+            android:textSize="14sp" />
+
+        <!-- Eligibility -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. Eligibility:"
+            android:textStyle="bold"
+            android:paddingBottom="8dp"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="This leave policy is applicable to all regular employees of the company."
+            android:paddingBottom="16dp"
+            android:textSize="14sp" />
+
+        <!-- Guidelines for Leave Policy -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. Guidelines for Leave Policy:"
+            android:textStyle="bold"
+            android:paddingBottom="8dp"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="‘Leave’ in this policy means to go away from office for a short period of time on personal grounds. All leaves, whether half day or full day, will need to be applied through a leave application..."
+            android:paddingBottom="16dp"
+            android:textSize="14sp" />
+
+        <!-- Earned/Paid Leave -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Earned/Paid Leave:"
+            android:textStyle="bold"
+            android:paddingBottom="8dp"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="An employee can utilize a designated number of earned/paid leaves during a year as indicated in their contract..."
+            android:paddingBottom="16dp"
+            android:textSize="14sp" />
+
+        <!-- Unpaid Leave -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Unpaid Leave:"
+            android:textStyle="bold"
+            android:paddingBottom="8dp"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The calculation of the unpaid leave would be: Total leaves taken - earned leaves so far = unpaid leaves..."
+            android:paddingBottom="16dp"
+            android:textSize="14sp" />
+
+        <!-- Illness -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Illness:"
+            android:textStyle="bold"
+            android:paddingBottom="8dp"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="In case of prolonged illness an employee is supposed to inform immediate supervisor timely and submit medical records..."
+            android:paddingBottom="16dp"
+            android:textSize="14sp" />
+
+        <!-- Button -->
+        <Button
+            android:id="@+id/startQuizButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Start Quiz" />
+
+    </LinearLayout>
+</ScrollView>
